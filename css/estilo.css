@@ -109,14 +109,7 @@ ul input:hover {
     background-color: black;
   }
   /*ayuda*/
-  .flex-container {
-    width: 160px;
-    height: 208px;
-  }
-  .caja1 {
-    width: 170px;
-    height: 150px;
-  }
+  
   .p {
     font-size: 20px;
   }
