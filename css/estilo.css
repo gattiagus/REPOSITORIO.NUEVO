@@ -42,6 +42,10 @@ img.herramientas:hover, img.materiales:hover {
   transition-duration: 2s;
   transform: translate(10px);
 }
+img.nosotros{
+  border-radius:5px;
+   height: 50%;
+  width: 50%;}
 
 h1 {
   background-color: beige;
