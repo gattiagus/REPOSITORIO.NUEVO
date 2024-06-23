@@ -1,20 +1,11 @@
-$color-principal:  brown;
-$color-secundario: steelblue;
-
-
 * {
   margin: auto;
   padding: 0;
   font-size: 20px;
 }
 
-
 /*BODY*/
-
-
 /*header*/
-
-
 /*main*/
 main {
   background-color: brown;
@@ -30,7 +21,8 @@ footer {
   font-style: italic;
   text-align: center;
 }
-img.herramientas, img.materiales{
+
+img.herramientas, img.materiales {
   border-radius: 10px;
   margin-left: 0 auto;
   height: 250px;
@@ -44,9 +36,10 @@ img.herramientas:hover, img.materiales:hover {
   transform: translate(0);
   transition: all;
   transition-duration: 2s;
-  transform: translate
- }
- img.nosotros{
+  transform: translate;
+}
+
+img.nosotros {
   height: 50%;
   width: 50%;
   border-radius: 5px;
@@ -68,7 +61,6 @@ p {
   border-radius: 5px;
 }
 
-
 ul input {
   margin: 25px;
   height: 30px;
@@ -88,7 +80,7 @@ ul input:hover {
   main {
     background-color: rgb(110, 110, 103);
   }
-   header {
+  header {
     background-color: black;
   }
   .p {
@@ -118,9 +110,5 @@ ul input:hover {
   }
 }
 
+
 /*# sourceMappingURL=estilo.css.map */
-
-
-
-
-
