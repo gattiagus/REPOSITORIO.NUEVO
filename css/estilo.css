@@ -35,7 +35,7 @@ img.herramientas, img.materiales{
   padding: 45px;
 }
 
-img:hover.herramientas, img.materiales:hover {
+img.herramientas:hover, img.materiales:hover {
   background-color: black;
   transform: translate(0);
   transition: all;
