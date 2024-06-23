@@ -1,0 +1,118 @@
+@charset "UTF-8";
+* {
+  margin: auto;
+  padding: 0;
+  font-size: 20px;
+}
+
+/*BODY*/
+
+
+/*header*/
+
+
+/*main*/
+main {
+  background-color: brown;
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+  padding: auto;
+}
+
+/*footer*/
+footer {
+  background-color: steelblue;
+  font-style: italic;
+  text-align: center;
+}
+
+img.herramientas, img.materiales{
+  border-radius: 5px;
+  margin-left: 0 auto;
+  height: 250px;
+  width: 200px;
+  padding: 45px;
+}
+
+img.herramientas:hover, img.materiales:hover {
+  background-color: black;
+  transform: translate(0);
+  transition: all;
+  transition-duration: 2s;
+  transform: translate(10px);
+}
+img.nosotros{
+  border-radius:5px;
+   height: 50%;
+  width: 50%;}
+
+h1 {
+  background-color: beige;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  background-color: brown;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: auto;
+  border-radius: 5px;
+}
+ul input {
+  margin: 25px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  background-color:  cadetblue;
+}
+
+ul input:hover {
+  transform: translate(0);
+  transition: all;
+  transition-duration: 2s;
+  transform: translate(10px);
+}
+
+
+
+@media (min-width: 270px) { /*main*/
+  main {
+    background-color: rgb(110, 110, 103);
+  }
+   header {
+    background-color: black;
+  }
+
+  
+  .p {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 720px) {
+  /*main*/
+  main {
+    background-color: beige;
+  }
+  /*header*/
+  header {
+    background-color: black;
+  }
+  .p {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
