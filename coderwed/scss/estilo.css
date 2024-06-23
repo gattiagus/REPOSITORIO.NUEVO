@@ -92,6 +92,10 @@ ul input:hover {
   h2 {
     font-size: 20px;
   }
+  ul input {
+    height: 200px;
+    width: 200px;
+  }
 }
 @media (max-width: 720px) {
   /*main*/
@@ -107,6 +111,10 @@ ul input:hover {
   }
   h1 {
     font-size: 20px;
+  }
+  ul input {
+    height: 200px;
+    width: 200px;
   }
 }
 
